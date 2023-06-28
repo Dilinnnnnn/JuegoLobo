@@ -1,0 +1,58 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>630</x><y>27</y><w>189</w><h>90</h></coordinates><panel_attributes>Juego
+--
+- Turnos : int
+
+--
++ ganar();
++ perder();</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>369</x><y>324</y><w>189</w><h>72</h></coordinates><panel_attributes>Actor
+--
+
+--
++Cruzar();
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>504</y><w>135</w><h>45</h></coordinates><panel_attributes>Observador
+--
++ estarEnElBote();</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>333</x><y>504</y><w>126</w><h>90</h></coordinates><panel_attributes>Lobo
+--
+- posicion : ennum
+--
++ subirse();
++ comer(caperucita);
++ bajarse();
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>477</x><y>504</y><w>126</w><h>90</h></coordinates><panel_attributes>Caperucita
+--
+- posicion : ennum
+--
++ subirse();
++ comer(uvas);
++ bajarse();</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>612</x><y>504</y><w>135</w><h>81</h></coordinates><panel_attributes>Uvas
+--
+- posicion : ennum
+--
++ subirse();
++ bajarse();</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>261</x><y>387</y><w>135</w><h>135</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>414</x><y>387</y><w>36</w><h>135</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>20;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>477</x><y>387</y><w>72</w><h>135</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;130</additional_attributes></element><element><id>Relation</id><coordinates><x>531</x><y>387</y><w>162</w><h>135</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;160;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>891</x><y>198</y><w>189</w><h>90</h></coordinates><panel_attributes>Accion
+--
+- posicion : ennum
+--
++ izquierda : menu
++ Derecha : menu</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>729</x><y>360</y><w>126</w><h>63</h></coordinates><panel_attributes>Subir
+--
+- bote(observador);
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>873</x><y>360</y><w>126</w><h>63</h></coordinates><panel_attributes>Bajar
+--
+- bote(observador);
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1017</x><y>360</y><w>99</w><h>63</h></coordinates><panel_attributes>Comer
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1143</x><y>360</y><w>144</w><h>81</h></coordinates><panel_attributes>Cruzar
+--
+
+--
++ izquierda : menu
++ Derecha : menu</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1161</x><y>99</y><w>117</w><h>99</h></coordinates><panel_attributes>&lt;&lt;Enumerator&gt;&gt;
+Menu
+--
+Caperucita
+Lobo
+Uvas
+Solo</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1215</x><y>189</y><w>27</w><h>189</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;190</additional_attributes></element><element><id>Relation</id><coordinates><x>774</x><y>279</y><w>135</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>936</x><y>279</y><w>36</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>20;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1017</x><y>279</y><w>63</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;50;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1071</x><y>279</y><w>135</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;90</additional_attributes></element><element><id>Relation</id><coordinates><x>774</x><y>108</y><w>225</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;230;100</additional_attributes></element><element><id>Relation</id><coordinates><x>459</x><y>108</y><w>252</w><h>234</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>260;10;10;240</additional_attributes></element><element><id>Relation</id><coordinates><x>558</x><y>243</y><w>351</w><h>126</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;120;370;10</additional_attributes></element></diagram>
